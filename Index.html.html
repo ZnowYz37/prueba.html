@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-compatible" content="ie=edge">
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+	<title>Formulario Registro</title>
+</head>
+<body>
+	<section class="form-register">
+		<h4>Formulario Registro</h4>
+		<ul>
+		<input class="controls" required class="text" class="Text" name="Nombres" id="Nombres" pattern="^[a-zA-Z\s]+$" title="Solo se acepta letras" placeholder="Ingrese su nombre"> 
+
+		<input class="controls"  type="text" required class="numero" name="numero" id="tel" pattern="^[0-9]{4}-?[0-9]{4}+$" title="Solo se aceptan formato: 2222-2222" placeholder="Ingrese su numero">
+		
+
+		<input class="controls" required class="email" type="email" name="Correo" id="Correo" pattern="^[0-9]{4}-?[0-9]{4}+$" title="NombreCorreo@dominio" placeholder="Ingrese su Correo" required/>
+			
+		<input class="controls" required class="password" type="password" name="Contraseña" id="Contraseña" placeholder="Ingrese su contraseña" value=""pattern="((?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,15})" title="Su contraseña debe de ser de 6 a 15 caracteres y  deben de incluir una letra mayuscula, minuscula y un numero">
+	</li>
+
+		<p>Estoy de acuerdo con <a href="#">Terminaciones y Condiciones</a></p>
+					<a href="2. Login.html"><button class="botons" id="button" type="submit" value="Iniciar">Iniciar</button>
+		<p>Ya tienes cuenta?<a href="Login.html"> Iniciar Sesion</a>
+	</section>
+	
+
+</body>
+</html>

@@ -1,0 +1,57 @@
+
+body{
+	margin: 0;
+	padding: 0;
+	background: url(../IMG/Fondo.jpg) no-repeat center top;
+	background-size: cover ;
+	font-family: sans-serif;
+	height: 120vh;
+}
+
+.container{
+	width: 400px;
+	height: 700px;
+	color: #fff;
+	top: 50%;
+	left: 50%;
+	text-align: left;
+	position: absolute;
+	background: #000;
+	transform: translate(-50%, -50%);
+	box-sizing: border-box;
+	padding: 60px 40px;
+}
+
+.title{
+	margin: 0;
+	padding: 0 0 20px;
+	text-align: center;
+	font-size: 22px;
+}
+
+.user-details input{
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+.input-box input[type="Text"],
+.login-box input[type="usuario"]
+.login-box input[type="correo"]
+.login-box input[type="number"]
+.login-box input[type="contra"]
+.login-box input[type="Especialidad"]
+.input-box input[type="contraseña"] {
+	border: none;
+	align-content: left;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: white;
+	font-size: 15px;
+}
+
+form .gender-details.category{
+	width: 80%;
+	background: red;
+}

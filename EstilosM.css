@@ -1,0 +1,20 @@
+body{
+	background: url(../IMG/Fondo.jpg) no-repeat center top ;
+	background-size: cover ;
+	font-family: sans-serif;
+	height: 96vh;
+}
+
+.volver{
+	width: 40%;
+	text-decoration: none;
+	background:#FF8402 ;
+	border: none;
+	padding: 8px;
+	color: white;
+	margin: 10px 0;
+	font-size: 16px;
+	border-radius: 20px;
+	text-align: center;
+	font-size: 18px;
+}

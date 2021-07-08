@@ -1,0 +1,75 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background: url(../IMG/Fondo.jpg) no-repeat center top ;
+	background-size: cover ;
+	font-family: sans-serif;
+	height: 89vh;
+}
+
+.form-register{
+	width: 400px;
+	height: 530px;
+	background: #000;
+	padding: 35px;
+	margin: auto;
+	margin-top: 70px;
+	border-radius: 4px;
+	font-family: "calibri";
+	color: #fff;
+	box-shadow: 7px 13px 37px #000;
+}
+
+.form-register h4{
+	font-size: 25px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.controls{
+	width: 100%;
+	outline: none;
+	height: 50px;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	padding: 10px;
+	color: white;
+	border-radius: 4px;
+	margin-bottom: 20px;
+	font-family: "calibri";
+	font-size: 18px;
+}
+
+.form-register p{
+	height: 40px;
+	text-align: center;
+	font-size: 18px;
+}
+
+.form-register a{
+	color: white;
+	text-decoration: none;
+}
+
+.form-register a:hover{
+	color: white;
+	text-decoration: underline;
+}
+
+.form-register .botons{
+	width: 100%;
+	text-decoration: none;
+	background:#FF8402 ;
+	border: none;
+	padding: 12px;
+	color: white;
+	margin: 16px 0;
+	font-size: 16px;
+	border-radius: 20px;
+	text-align: center;
+	font-size: 18px;
+}
